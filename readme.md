@@ -1,3 +1,5 @@
+## deep-ai стал платным, поэтому переделано на sightengine
+
 ## NSFW Image Moderation API (FastAPI + Sightengine)
 
 Это минималистичное FastAPI-приложение для проверки изображений на наличие NSFW-контента (обнажённость, оружие, наркотики, насилие и другие категории) с использованием API сервиса [Sightengine](https://sightengine.com/).
