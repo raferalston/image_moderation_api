@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # 3. Создайте файл app/.env с данными доступа *Подробнее о структуре ниже:
 API_USER=your_api_user_here
 API_KEY=your_api_key_here
-
+* Данные можно узнать в [Sightengine](https://dashboard.sightengine.com/api-credentials)
 # 4. Запуск приложения *из корня app/:
 uvicorn main:app --reload
 
@@ -61,8 +61,8 @@ pytest
 Все параметры настроек (например, список моделей или порог NSFW) настраиваются в `.env`:
 
 ```env
-API_KEY=API secret в [sightengine](https://dashboard.sightengine.com/api-credentials)
-API_USER=API user в [sightengine](https://dashboard.sightengine.com/api-credentials)
+API_KEY=API secret
+API_USER=API user
 NSFW_THRESHHOLD=0.5
 MODELS=...Строка с моделями
 AI_URL=эндпоинт
